@@ -1,0 +1,19 @@
+apply plugin: "java"
+
+archivesBaseName = "x"
+version = '1.0-FINAL'
+
+
+defaultTasks 'buildTask'
+
+repositories {
+  mavenCentral()
+}
+
+
+
+
+task buildTask (dependsOn:build) << { 
+    System.out.println "buildTask..." 
+ 
+}
