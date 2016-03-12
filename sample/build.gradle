@@ -13,7 +13,8 @@ repositories {
 
 
 
-task buildTask (dependsOn:build) << { 
+
+task my (dependsOn:build) << { 
     System.out.println "buildTask..." 
  
 }
