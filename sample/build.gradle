@@ -1,15 +1,19 @@
-apply plugin: "java"
+apply plugin: 'java'
+apply plugin: 'groovy'
 
-archivesBaseName = "x"
+archivesBaseName = 'x'
 version = '1.0-FINAL'
 
 
-defaultTasks 'buildTask'
+defaultTasks 'my'
 
 repositories {
   mavenCentral()
 }
 
+dependencies {
+    compile 'org.codehaus.groovy:groovy-all:2.4.4'
+}
 
 
 
