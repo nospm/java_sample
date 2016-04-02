@@ -1,7 +1,7 @@
 
 
 public class My{
-    public static void My(String[] args) {
+    public static void main(String[] args) {
         System.out.println("Ha-Ha ))");
     }
 }
